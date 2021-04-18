@@ -1,0 +1,203 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-17T13:35:08.614Z",
+        "line": 15,
+        "name": "Login in Adactin",
+        "description": "",
+        "id": "booking-room-functionality;login-in-adactin;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6251196400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in AdactinHotel page",
+            "match": {
+              "location": "Executable.user_in_AdactinHotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2321040300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login with valid \"Priya3110\" and\"Priya@3110\" and user navigate to searchHOtel page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Priya3110",
+                  "offset": 23
+                },
+                {
+                  "val": "Priya@3110",
+                  "offset": 38
+                }
+              ],
+              "location": "Executable.user_login_with_valid_and_and_user_navigate_to_searchHOtel_page(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1540202500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user choosing \"Sydney\",\"Hotel creek\",\"standard\".\"one\", \"15/04/21\" ,\"16/04/21\",\"one\",\"one\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney",
+                  "offset": 15
+                },
+                {
+                  "val": "Hotel creek",
+                  "offset": 24
+                },
+                {
+                  "val": "standard",
+                  "offset": 38
+                },
+                {
+                  "val": "one",
+                  "offset": 49
+                },
+                {
+                  "val": "15/04/21",
+                  "offset": 56
+                },
+                {
+                  "val": "16/04/21",
+                  "offset": 68
+                },
+                {
+                  "val": "one",
+                  "offset": 79
+                },
+                {
+                  "val": "one",
+                  "offset": 85
+                }
+              ],
+              "location": "Executable.user_choosing(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1336298700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click search button and user go to select hotel page",
+            "match": {
+              "location": "Executable.user_click_search_button_and_user_go_to_select_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6188546000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user choose a hotel in the list and click continue button and user should be in payment page",
+            "match": {
+              "location": "Executable.user_choose_a_hotel_in_the_list_and_click_continue_button_and_user_should_be_in_payment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6451957200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter \"poorni\" ,\"shuruthi\" and \"abc street chennai\" \"1234567890123456\", \"american express\",\"jun\" ,\"2021\" and \"521\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "poorni",
+                  "offset": 12
+                },
+                {
+                  "val": "shuruthi",
+                  "offset": 22
+                },
+                {
+                  "val": "abc street chennai",
+                  "offset": 37
+                },
+                {
+                  "val": "1234567890123456",
+                  "offset": 58
+                },
+                {
+                  "val": "american express",
+                  "offset": 78
+                },
+                {
+                  "val": "jun",
+                  "offset": 97
+                },
+                {
+                  "val": "2021",
+                  "offset": 104
+                },
+                {
+                  "val": "521",
+                  "offset": 115
+                }
+              ],
+              "location": "Executable.user_enter_and_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6341173500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click book now button and user get the booked room details",
+            "match": {
+              "location": "Executable.user_click_book_now_button_and_user_get_the_booked_room_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 544400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click search hotel then moved to home page of search hotel",
+            "match": {
+              "location": "Executable.user_click_search_hotel_then_moved_to_home_page_of_search_hotel()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Booking room functionality",
+    "description": "",
+    "id": "booking-room-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/hotel.feature",
+    "tags": []
+  }
+]

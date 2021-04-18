@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.462051">
+<testcase classname="Booking room functionality" name="Login in Adactin" time="30.462051">
+<system-out><![CDATA[Given user in AdactinHotel page.............................................passed
+When user login with valid "Priya3110" and"Priya@3110" and user navigate to searchHOtel page.passed
+And user choosing "Sydney","Hotel creek","standard"."one", "15/04/21" ,"16/04/21","one","one".passed
+And user click search button and user go to select hotel page...............passed
+And user choose a hotel in the list and click continue button and user should be in payment page.passed
+And user enter "poorni" ,"shuruthi" and "abc street chennai" "1234567890123456", "american express","jun" ,"2021" and "521".passed
+And user click book now button and user get the booked room details.........passed
+Then user click search hotel then moved to home page of search hotel........passed
+]]></system-out>
+</testcase>
+</testsuite>
